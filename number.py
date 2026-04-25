@@ -10,7 +10,7 @@ while True:
         print("Empty input not allowed!")
         continue
 
-    # Stop condition
+    
     if user_input.lower() == "stop":
         break
 
