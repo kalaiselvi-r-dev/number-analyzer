@@ -5,7 +5,7 @@ even_num = 0
 while True:
     user_input = input("Enter a number (or type 'stop'): ").strip()
 
-    # Check empty input
+    
     if user_input == "":
         print("Empty input not allowed!")
         continue
@@ -20,14 +20,14 @@ while True:
         count += 1
         total += num
 
-        # Check even only if it's an integer value
+        
         if num.is_integer() and int(num) % 2 == 0:
             even_num += 1
 
     except ValueError:
         print("Invalid input! Enter numbers only.")
 
-# Final output
+
 if count == 0:
     print("No valid numbers entered!")
 else:
